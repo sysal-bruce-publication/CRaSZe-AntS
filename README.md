@@ -43,3 +43,14 @@ and convex hull files have the following format:
 
 | The target circle ID in original dataset that are convex hull vertices |
 |------------------------------------------------------------------------|
+
+## Evolution process visualization of CRaSZe-AntS and BE-PSO-IACS
+As stated in the paper, we show the full evolution process of two algorithms in solving TDDP instance _bubbles1_:
+
+### CRaSZe-AntS
+
+![CRaSZe-AntS](figures/CRaSZe-AntS.gif)
+
+### BE-PSO-IACS
+
+![BE-PSO-IACS](figures/BE-PSO-IACS.gif)
