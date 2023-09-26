@@ -1,13 +1,13 @@
 # CRaSZe-AntS
-CRaSZe-AntS is a hybrid algorithm for <ins>**C**</ins>lose Enough Orienteering Problem (CEOP) that combines the advantages of the <ins>**Ra**</ins>ndomized <ins>**S**</ins>teiner <ins>**Z**</ins>on<ins>**e**</ins> Discretization scheme and the <ins>**Ant**</ins> Colony <ins>**S**</ins>ystem (ACS). For solving CEOP with different cost functions to collect prizes, CRaSZe-AntS involves different operators. This repository contains the explanation how CRaSZe-AntS works in CEOP and CEOP-$\mathcal{N}$, and experimental results achieved by CRaSZe-AntS and benchmark algorithms. 
+CRaSZe-AntS is a hybrid algorithm for <ins>**C**</ins>lose Enough Orienteering Problem (CEOP) that combines the advantages of the <ins>**Ra**</ins>ndomized <ins>**S**</ins>teiner <ins>**Z**</ins>on<ins>**e**</ins> Discretization scheme and the <ins>**Ant**</ins> Colony <ins>**S**</ins>ystem (ACS). For solving CEOP with different cost functions to collect prizes, CRaSZe-AntS involves different operators. This repository explains how CRaSZe-AntS works in CEOP and CEOP- $\mathcal{N}$ and experimental results achieved by CRaSZe-AntS and benchmark algorithms. 
 
-## Work flow of CRaSZe-AntS
-The work flow of CRaSZe-AntS for solving **CEOP** can be found [here](figures/CEOP.pdf).
+## Workflow of CRaSZe-AntS
+The workflow of CRaSZe-AntS for solving **CEOP** can be found [here](figures/CEOP.pdf).
 
-The work flow of CRaSZe-AntS for solving **CEOP-$\mathcal{N}$** can be found [here](figures/CEOPN.pdf).
+The workflow of CRaSZe-AntS for solving **CEOP- $\mathcal{N}$** can be found [here](figures/CEOPN.pdf).
 
 ## Dataset
-In this paper, we mainly use two types of instances with suffix `.ceop` and `.tddp`. Because these two types of instances comes from the original CETSP dataset, we follow a similar file structure as CETSP dataset. Specifically, for `.ceop` instances, we have the following file structure:
+This paper mainly uses two types of instances with suffixes `.ceop` and `.tddp`. Because these two types of instances come from the original CETSP dataset, we follow a similar file structure as the CETSP dataset. Specifically, for `.ceop` instances, we have the following file structure:
 
 | Xs | Ys | Zs (not used) | radius | prize |
 |----|----|---------------|--------|-------|
@@ -18,11 +18,11 @@ For `.tddp` instances, we have the following file structure:
 |----|----|---------------|--------|-----------------------------|-------|
 
 ## Experimental results
-For experiment results of solving SOP, i.e. examine the discretization performance, please refer to [here](results/SOP).
+For experiment results of solving SOP, i.e., examine the discretization performance, please refer to [here](results/SOP).
 
-For experiment results of solving CEOP, i.e. examine the discretization performance, please refer to [here](results/CEOP).
+Please refer to [here](results/CEOP) for experiment results of solving CEOP.
 
-For experiment results of solving TDDP, i.e. examine the discretization performance, please refer to [here](results/TDDP).
+For experiment results of solving TDDP, please refer to [here](results/TDDP).
 
 Note that in each `solutions/` directory, the solution files have the following format:
 
