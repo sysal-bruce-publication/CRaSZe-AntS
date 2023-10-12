@@ -1,4 +1,14 @@
 # CRaSZe-AntS
+Please see more details in our [paper](https://arxiv.org/abs/2310.04257). Citation:
+```
+@article{qian2023solving,
+  title={On Solving Close Enough Orienteering Problem with Overlapped Neighborhoods},
+  author={Qian, Qiuchen and Wang, Yanran and Boyle, David},
+  journal={arXiv preprint arXiv:2310.04257},
+  year={2023}
+}
+```
+
 CRaSZe-AntS is a hybrid algorithm for <ins>**C**</ins>lose Enough Orienteering Problem (CEOP) that combines the advantages of the <ins>**Ra**</ins>ndomized <ins>**S**</ins>teiner <ins>**Z**</ins>on<ins>**e**</ins> Discretization scheme and the <ins>**Ant**</ins> Colony <ins>**S**</ins>ystem (ACS). For solving CEOP with different cost functions to collect prizes, CRaSZe-AntS involves different operators. This repository explains how CRaSZe-AntS works in CEOP and CEOP- $\mathcal{N}$ and experimental results achieved by CRaSZe-AntS and benchmark algorithms. 
 
 ## Workflow of CRaSZe-AntS
