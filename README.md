@@ -11,10 +11,8 @@ Please see more details in our [paper](https://arxiv.org/abs/2310.04257). Citati
 
 CRaSZe-AntS is a hybrid algorithm for <ins>**C**</ins>lose Enough Orienteering Problem (CEOP) that combines the advantages of the <ins>**Ra**</ins>ndomized <ins>**S**</ins>teiner <ins>**Z**</ins>on<ins>**e**</ins> Discretization scheme and the <ins>**Ant**</ins> Colony <ins>**S**</ins>ystem (ACS). For solving CEOP with different cost functions to collect prizes, CRaSZe-AntS involves different operators. This repository explains how CRaSZe-AntS works in CEOP and CEOP- $\mathcal{N}$ and experimental results achieved by CRaSZe-AntS and benchmark algorithms. 
 
-## Workflow of CRaSZe-AntS
-The workflow of CRaSZe-AntS for solving **CEOP** can be found [here](figures/CEOP.pdf).
-
-The workflow of CRaSZe-AntS for solving **CEOP- $\mathcal{N}$** can be found [here](figures/CEOPN.pdf).
+## Overall design of CRaSZe-AntS
+![GraphicalAbstract](figures/GraphicalAbstract.pdf).
 
 ## Dataset
 This paper mainly uses two types of instances with suffixes `.ceop` and `.tddp`. Because these two types of instances come from the original CETSP dataset, we follow a similar file structure as the CETSP dataset. Specifically, for `.ceop` instances, we have the following file structure:
