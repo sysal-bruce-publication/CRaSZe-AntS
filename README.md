@@ -6,11 +6,13 @@ CRaSZe-AntS is a hybrid algorithm for <ins>**C**</ins>lose Enough Orienteering P
 
 Please see more details in our [paper](https://arxiv.org/abs/2310.04257). Citation:
 ```
-@article{qian2023solving,
-  title={On Solving Close Enough Orienteering Problem with Overlapped Neighborhoods},
-  author={Qian, Qiuchen and Wang, Yanran and Boyle, David},
-  journal={arXiv preprint arXiv:2310.04257},
-  year={2023}
+@misc{qian2024solving,
+      title={On Solving Close Enough Orienteering Problem with Overlapped Neighborhoods}, 
+      author={Qiuchen Qian and Yanran Wang and David Boyle},
+      year={2024},
+      eprint={2310.04257},
+      archivePrefix={arXiv},
+      primaryClass={cs.NE}
 }
 ```
 
