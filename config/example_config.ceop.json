@@ -1,0 +1,32 @@
+{
+	"data_dir": "data",
+	"fig_dir": "figs",
+	"set_timer": true,
+	"print_result": true,
+	"check_sol": true,
+	"problem": {
+		"name": "ceop",
+		"budget": 1106.694
+	},
+	"SZS": {
+		"num_iters": 10,
+		"num_disc_pts": 3,
+		"max_circs": 5
+	},
+	"ACS": {
+		"num_ants": 40,
+		"max_no_impr": 25,
+		"num_iters": 250,
+		"q0": 0.9,
+		"rho": 0.1,
+		"alpha": 0.1,
+		"beta": 2.0,
+		"tol": 0.0001
+	},
+	"2opt": {
+		"num_iters": 100
+	},
+	"arc": {
+		"num_iters": 5
+	}
+}
