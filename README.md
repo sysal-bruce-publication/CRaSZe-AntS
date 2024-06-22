@@ -1,19 +1,19 @@
 # CRaSZe-AntS
-CRaSZe-AntS is a hybrid algorithm for <ins>**C**</ins>lose Enough Orienteering Problem (CEOP) that combines the advantages of the <ins>**Ra**</ins>ndomized <ins>**S**</ins>teiner <ins>**Z**</ins>on<ins>**e**</ins> Discretization scheme and the <ins>**Ant**</ins> Colony <ins>**S**</ins>ystem (ACS). For solving CEOP with different cost functions to collect prizes, CRaSZe-AntS involves different operators. This repository explains how CRaSZe-AntS works in CEOP and CEOP- $\mathcal{N}$ and experimental results achieved by CRaSZe-AntS and benchmark algorithms. CRaSZe-AntS can solve three problems:
-1. SOP: The [Set Orienteering Problem](https://www.sciencedirect.com/science/article/pii/S0377221717310202). Here our SOP allows at most **one** visit to the vertex in each group.
+CRaSZe-AntS is a hybrid algorithm for <ins>**C**</ins>lose Enough Orienteering Problem (CEOP) that combines the advantages of the <ins>**Ra**</ins>ndomized <ins>**S**</ins>teiner <ins>**Z**</ins>on<ins>**e**</ins> Discretization scheme and the <ins>**Ant**</ins> Colony <ins>**S**</ins>ystem (ACS). To solve CEOP with different cost functions to collect prizes, CRaSZe-AntS involves different operators. This repository explains how CRaSZe-AntS works in CEOP and CEOP- $\mathcal{N}$ and experimental results achieved by CRaSZe-AntS and benchmark algorithms. CRaSZe-AntS can solve three problems:
+1. SOP: The [Set Orienteering Problem](https://www.sciencedirect.com/science/article/pii/S0377221717310202). Here, our SOP allows at most **one** visit to the vertex in each group.
 2. CEOP: The [Close Enough Orienteering Problem](https://ieeexplore.ieee.org/document/7844421).
 3. TDDP: The Truck-and-Drone Delivery Problem. Please check our paper for the formal formulation.
 
-Please see more details in our [paper](https://arxiv.org/abs/2310.04257). Citation:
+Please see more details in our [paper](https://www.sciencedirect.com/science/article/pii/S0377221724003916?via%3Dihub). Citation:
 ```
-@misc{qian2024solving,
-      title={On Solving Close Enough Orienteering Problem with Overlapped Neighborhoods}, 
-      author={Qiuchen Qian and Yanran Wang and David Boyle},
-      year={2024},
-      eprint={2310.04257},
-      archivePrefix={arXiv},
-      primaryClass={cs.NE}
-}
+@article{QIAN2024,
+title = {On solving close enough orienteering problems with overlapped neighborhoods},
+journal = {European Journal of Operational Research},
+year = {2024},
+issn = {0377-2217},
+doi = {https://doi.org/10.1016/j.ejor.2024.05.032},
+url = {https://www.sciencedirect.com/science/article/pii/S0377221724003916},
+author = {Qiuchen Qian and Yanran Wang and David Boyle}}
 ```
 
 ## Overall design of CRaSZe-AntS
@@ -34,7 +34,7 @@ g++ -std=c++2a -o crazyants <path-to-all-src>*.cpp -lstdc++fs
 ```
 
 ### Instructions
-1. Create directory structure as follows:
+1. Create a directory structure as follows:
 ```
 workspace/
 ├── crazyants (binary file)
@@ -67,7 +67,7 @@ cd scripts
 3. Check results in `workspace/data/tddp/sols/`.
 
 ## Evolution process visualization
-Below we show the full evolution process of two algorithms in solving TDDP instance _bubbles1_:
+Below, we show the full evolution process of two algorithms in solving TDDP instance _bubbles1_:
 
 ### CRaSZe-AntS
 
