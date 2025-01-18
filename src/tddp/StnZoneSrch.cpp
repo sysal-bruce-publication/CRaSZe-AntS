@@ -72,9 +72,9 @@ void StnZoneSrch::construct_stn_zones()
 			}
 			// If there exists intersection points, push them to the SZ.
 			if (!intx_pts.empty()) {
-				for (size_t i = 0; i < intx_pts.size(); ++i) {
-					cur_sz.push_vertex(intx_pts[i]);
-					cur_sz.push_cc_id(cc_ids[i]);
+				for (size_t j = 0; j < intx_pts.size(); ++j) {
+					cur_sz.push_vertex(intx_pts[j]);
+					cur_sz.push_cc_id(cc_ids[j]);
 				}
 			}
 			// Clear used vectors.
